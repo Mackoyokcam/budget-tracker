@@ -1,0 +1,24 @@
+@import 'vars';
+
+.category-form {
+
+  button {
+    border: 2px solid black;
+    background-color: white;
+    padding-right: .25em;
+    padding-left: .25em;
+    padding-top: .1em;
+    padding-bottom: .1em;
+    -webkit-transition: border-radius .25s;
+    transition: border-radius .25s;
+    &:hover {
+      border-radius: .5em;
+      border-color: $color-green;
+    }
+  }
+
+  legend {
+    background-color: black;
+    color: white;
+  }
+}

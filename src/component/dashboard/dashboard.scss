@@ -1,0 +1,12 @@
+@import 'vars';
+
+.categories {
+  height: 100%;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+  .category-item {
+    width: 45%;
+    height: 95%;
+  }
+}

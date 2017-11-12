@@ -1,0 +1,41 @@
+@import 'vars';
+
+.category-item {
+  border: 2px solid black;
+  // padding: $pad;
+  position: relative;
+  white-space: normal;
+  display: inline-block;
+  margin: $margin;
+
+  .label{
+    font-family: $font-rubik;
+    padding: $pad;
+    border-bottom: 1px solid black;
+    margin-bottom: $margin;
+    background-color: $color-silver;
+
+    h4 {
+      font-weight: bold;
+    }
+  }
+
+  .drop-zone {
+    width: 80%;
+  }
+
+  .delete {
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: $color-orange;
+    font-family: $font-slackey;
+    &:hover {
+      background-color: $color-red;
+    }
+  }
+
+  .expense-item {
+    margin-top: $margin;
+  }
+}

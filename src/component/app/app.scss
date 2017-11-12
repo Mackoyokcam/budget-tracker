@@ -1,0 +1,42 @@
+@import 'vars';
+
+header {
+  height: 10%;
+  border-bottom: 5px dashed black;
+  margin-bottom: $margin;
+  nav {
+    padding: $pad;
+    h1 {
+      font-family: $font-slackey;
+      float: left;
+      width: auto;
+    }
+
+    ul {
+      width: auto;
+      float: right;
+      li {
+        display: inline;
+      }
+    }
+  }
+}
+
+main {
+  padding: $pad;
+  height: 80%;
+}
+
+.landing {
+  clear:left;
+  width: 100%;
+}
+
+.dashboard {
+  clear: left;
+  width: 100%;
+  height: 100%;
+  .category-form {
+    text-align: center;
+  }
+}

@@ -1,0 +1,33 @@
+@import 'vars';
+
+.expense-item {
+  border: 1px solid black;
+  padding: $pad;
+  position: relative;
+  background-color: white;
+
+  p {
+    font-weight: bold;
+  }
+
+  transition: border-width .25s;
+  &:hover {
+    cursor: move; /* fallback if grab cursor is unsupported */
+    cursor: grab;
+    cursor: -moz-grab;
+    cursor: -webkit-grab;
+    border-color: $color-orange;
+    border-width: 2px;
+  }
+
+  .delete {
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: $color-orange;
+    font-family: $font-slackey;
+    &:hover {
+      background-color: $color-red;
+    }
+  }
+}

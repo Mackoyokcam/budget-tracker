@@ -1,0 +1,19 @@
+@import 'vars';
+
+.expense-form {
+  button {
+    border: 2px solid black;
+    background-color: white;
+    padding-right: .25em;
+    padding-left: .25em;
+    padding-top: .1em;
+    padding-bottom: .1em;
+    &:hover {
+      background-color: $color-green;
+    }
+  }
+  legend {
+    background-color: black;
+    color: white;
+  }
+}

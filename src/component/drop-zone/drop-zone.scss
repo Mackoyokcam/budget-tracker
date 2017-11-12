@@ -1,0 +1,16 @@
+@import 'vars';
+
+.drop-zone {
+  border: 2px solid black;
+  height: 70%;
+  max-height: 70%;
+  overflow-y: scroll;
+  padding: $pad;
+  margin: auto;
+  margin-top: $margin;
+  margin-bottom: $margin;
+}
+
+.dropping {
+  background-color: $color-green;
+}
